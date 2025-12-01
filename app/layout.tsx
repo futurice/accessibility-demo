@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="flex justify-center border-b bg-spruce-green h-14">
+        <header className="flex justify-center border-b bg-spruce-green min-h-14">
           <nav className="p-4 w-full max-w-3xl text-snow-white">
             <ul className="flex flex-row gap-8">
               <li>
@@ -39,6 +39,9 @@ export default function RootLayout({
               </li>
               <li>
                 <Link href="/screen-reader">Screen reader</Link>
+              </li>
+              <li>
+                <Link href="/examples">Examples</Link>
               </li>
             </ul>
           </nav>
