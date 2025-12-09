@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col h-full gap-8">
       <h1>Accessibility testing for developers</h1>
       <p>
         This website is for demonstrating accessibility testing basics. The

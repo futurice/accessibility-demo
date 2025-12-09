@@ -12,6 +12,10 @@ export default function ScreenReader() {
         <h2>Basic controls:</h2>
         <dl className="grid grid-cols-[max-content_1fr] gap-x-6 gap-y-2 ">
           <dt>
+            <kbd>Command</kbd> + <kbd>F5</kbd>
+          </dt>
+          <dd>Toggle VoiceOver on/off</dd>
+          <dt>
             <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>Right</kbd>
           </dt>
           <dd>Move to next item</dd>
