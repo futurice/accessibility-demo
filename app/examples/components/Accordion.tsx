@@ -22,8 +22,9 @@ const handleKeyUp = (
  *
  * Accessibility improvement part 1.2 (screen readers):
  * 1. Add role "button" so that screen readers can identify it as an interactive element.
- * 2. Add meaningful aria-label to describe the action, e.g., "Toggle accordion".
- * 3. Add aria-expanded attribute to indicate the current state of the accordion (expanded/collapsed).
+ * 2. Add aria-expanded attribute to indicate the current state of the accordion (expanded/collapsed).
+ * 3. Bonus: In theory, we could also add an aria-label to provide context on what happens from the button.
+ *           However, if the trigger text is descriptive enough, overriding it with aria-label would be unnecessary.
  */
 const AccordionTrigger = ({
   children,
