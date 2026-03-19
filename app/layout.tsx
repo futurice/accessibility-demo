@@ -44,6 +44,9 @@ export default function RootLayout({
               <li>
                 <Link href="/examples">Examples</Link>
               </li>
+              <li>
+                <Link href="/axe-tables">Tables</Link>
+              </li>
             </ul>
           </nav>
         </header>
